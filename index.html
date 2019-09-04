@@ -4,6 +4,7 @@
 <head>
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -26,21 +27,23 @@
     <!-- Links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Sign up</a>
+        <a class="nav-link" href="/home/moringa/Videos/Construction/signup.html">Sign up</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Log in</a>
+        <a class="nav-link" href="/home/moringa/Videos/Construction/login.html">Log in</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link 3</a>
       </li>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="search">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <form id="search" class="form-inline">
-          <input class="form-control mr-sm-2" style="opacity: 1" type="text" placeholder="Search">
-          <button class="btn btn-warning" style="opacity: 1" type="submit">Search</button>
-        </form>
-      </nav>
+      <li>
+        <div class="search">
+          <form id="search" class="form-inline" action="" target="_blank" method="get">
+            <input class="form-control mr-sm-2" style="opacity: 1" type="text" placeholder="Search">
+            <button class="btn btn-warning" style="opacity: 1" type="submit">Search</button>
+          </form>
+
+        </div>
+      </li>
     </ul>
   </nav>
 
@@ -51,10 +54,10 @@
     <!-- Links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link nav2" href="#">About us</a>
+        <a class="nav-link nav2" href="#about">About us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav2" href="#">Services</a>
+        <a class="nav-link nav2" href="#serve">Services</a>
       </li>
       <li class="nav-item">
         <a class="nav-link nav2" href="#">Team</a>
@@ -135,29 +138,76 @@
 
         </div>
       </li>
+
     </ul>
   </nav>
+
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">About Us</h1>
-      <p class="lead">JENGA Ltd is the first and leading linking company based in Kenya that specializes in support services to the construction material companies and customers in the construction industry. At Jenga, We offer quality assurance and integrated services to our clients in both the private and public sectors. Adding value to the construction industry is the foundation of what we do. Save time, optimize costs, and get the best services for your projects in Kenya.</p>
+      <h1 class="text-center objective">About Us</h1>
+      <p class="lead">JENGA Ltd is the first and leading linking company based in Kenya that specializes in support services to the construction material companies and customers in the construction industry. At Jenga, We offer quality assurance and
+        integrated services to our clients in both the private and public sectors. Adding value to the construction industry is the foundation of what we do. Save time, optimize costs, and get the best services for your projects in Kenya.</p>
     </div>
   </div>
-  <div class="services">
-    <h1>Services</h1>
-    <h2>Market Expertise</h2>
-    <img src="Images/Expertise.png" alt="Market Expertise">
-    <p>Construction regulations and labor laws around the world vary greatly, and we have experts around to give you the best quality destinations to buy your materials for the required standards. We do regular research to make sure that our clients get the best out of the best.</p>
-    <h2>Scheduling</h2>
-    <img src="Images/scheduling.jpeg" alt="Scheduling">
-    <p>At Jenga, we schedule our clients the best time that they are available. This makes it more convenient and saves time for our clients. Its the joy of every client when he/she gets the required materials at the required time. We as Jenga facilitate this by making sure that all of our materials clients are always on time when required by the customers.</p>
-    <h2>Global market watch</h2>
-    <img src="Images/market-watch.jpg" alt="market watch">
-    <p>We rely on advanced technology to deliver a 100% transition between the material companies and the customers. Our salespersons around the nation do more research on the modern materials that are widely used so that we replicate the same to our clients. This keeps them updated on the required and most adored type and quality of materials required by most customers.</p>
+  <div class="container container">
+    <div id="serve">
+      <h1 class="text-center objective">Services</h1>
+      <div class="row text-center">
+        <div class="col-md-4 main">
+          <img src="Images/Expertise.png" alt="Market Expertise" class="show img-fluid">
+          <h3 class="heading show">Click Here</h3>
+          <label for="cartToggle" class="toggleCart btnStyle btnStyle2"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <i class="fa fa-circle" aria-hidden="true"></i>
+        <span class="num"></span>
+      </label>
+          <div class="hide">
+            <h2>Market Expertise</h2>
+            <p>Construction regulations and labor laws around the world vary greatly, and we have experts around to give you the best quality destinations to buy your materials for the required standards. We do regular research to make sure that our
+              clients get the best out of the best.</p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4 main">
+          <img src="Images/scheduling.jpeg" alt="Scheduling" class="show img-fluid">
+          <h3 class="heading show">Click Here</h3>
+          <div class="hide">
+            <h2>Scheduling</h2>
+            <p>At Jenga, we schedule our clients the best time that they are available. This makes it more convenient and saves time for our clients. Its the joy of every client when he/she gets the required materials at the required time. We as
+              Jenga facilitate this by making sure that all of our materials clients are always on time when required by the customers.</p>
+
+          </div>
+
+        </div>
+        <div class="col-md-4 main">
+          <img src="Images/market-watch.jpg" alt="market watch" class="show img-fluid">
+          <h3 class="heading show">Click Here</h3>
+          <div class="overlay">
+            <a href="#" class="icon" title="User Profile">
+              <i class="fas fa-hand-pointer"></i>
+            </a>
+          </div>
+          <div class="hide">
+            <h2>Global market watch</h2>
+            <p>We rely on advanced technology to deliver a 100% transition between the material companies and the customers. Our salespersons around the nation do more research on the modern materials that are widely used so that we replicate the
+              same to our clients. This keeps them updated on the required and most adored type and quality of materials required by most customers.</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
 
   </div>
-  
+
+
 
 </body>
+<script src="./js/jQuery.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/mdb.js"></script>
+<script src="./js/scripts.js"></script>
 
 </html>
